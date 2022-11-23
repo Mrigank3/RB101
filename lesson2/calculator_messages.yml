@@ -1,0 +1,12 @@
+welcome: 'Welcome to the calculator!'
+first_number:  'Whats the first number'
+second_number: 'Whats the second number'
+invalid_number: 'hmm... that does not look like a valid number.'
+valid_option: 'Choose a valid option'
+wish: "Do you wish to continue calculations?('y' for yes)"
+message:
+  What operation would you like to do?
+  1)Add
+  2)Subtract
+  3)Multiply
+  4)Divide

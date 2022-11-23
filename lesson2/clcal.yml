@@ -1,0 +1,6 @@
+invalid_message: 'The number entered is not in the correct format or is invalid, try again' 
+welcome: 'Welcome to the car loan calculator'
+loan_amount: 'What is the loan amount?'
+loan_duration: 'What is the duration of the loan?(Please answer in years) '
+APR: 'What is the APR?(Please answer in percentage)'
+wish: 'Do you want to calculate the payments for another car?'
