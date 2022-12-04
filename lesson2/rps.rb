@@ -4,10 +4,10 @@ def prompt(message)
   Kernel.puts("=> #{message}")
 end
 
-def win?(player, computer)
-  (player == 'rock' && computer == 'paper') ||
-    (player == 'paper' && computer == 'scissors') ||
-    (player == 'scissors' && computer == 'rock')
+def win?(player1, player2)
+  (player1 == 'rock' && player2 == 'paper') ||
+    (player1 == 'paper' && player2 == 'scissors') ||
+    (player1 == 'scissors' && player2 == 'rock')
 end
 
 def return_results(player, computer)
@@ -22,10 +22,12 @@ end
 
 choice = ''
 
+require 'pry'
 loop do
   loop do
     prompt("make a choice from the following: #{VALID_CHOICES.join(',')}")
     choice = Kernel.gets().chomp()
+    binding.pry
     if VALID_CHOICES.include?(choice)
       break
     else
